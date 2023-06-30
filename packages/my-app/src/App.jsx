@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
-import { createServer } from "miragejs";
+import { createServer } from 'miragejs';
+import lodashIsPlainObject from 'lodash.isplainobject';
+console.log("TCL ~ file: App.jsx:4 ~ lodashIsPlainObject:", lodashIsPlainObject);
 
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
